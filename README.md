@@ -21,11 +21,13 @@ A Python CLI tool that:
 ## Setup
 python -m venv .venv
 
-# Windows:
+### Windows:
 .venv\Scripts\activate
 
-# macOS/Linux:
+### macOS/Linux:
 source .venv/bin/activate
+
+---
 
 ## Run (OpenAI)
 python src/main.py --llm openai --limit 10 --output out/index.html

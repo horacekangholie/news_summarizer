@@ -1,7 +1,7 @@
 [project]
 name = "news-summarizer"
 version = "0.1.0"
-description = "Tool to summarize latest Google News"
+description = "Localized Google News summarizer using OpenAI or Ollama"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
