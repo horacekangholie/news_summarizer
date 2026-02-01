@@ -13,8 +13,8 @@ venv/
 .env
 
 # Output / generated files
-out/
-*.html
+# out/
+# *.html
 
 # OS
 .DS_Store
