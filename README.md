@@ -40,9 +40,9 @@ python src/main.py --refresh-geoip --llm openai --limit 10 --output out/index.ht
 ```
 
 ## Run (Ollama)
-# Make sure Ollama is running:
-#   ollama serve
-#   ollama pull llama3.2
+### Make sure Ollama is running:
+###   ollama serve
+###   ollama pull llama3.2
 ```bash
 python src/main.py --llm ollama --limit 10 --output out/index.html
 python src/main.py --refresh-geoip --llm ollama --limit 10 --output out/index.html
