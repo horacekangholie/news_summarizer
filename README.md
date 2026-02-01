@@ -19,23 +19,31 @@ A Python CLI tool that:
 ---
 
 ## Setup
+```bash
 python -m venv .venv
-
+```
 ### Windows:
+```bash
 .venv\Scripts\activate
+```
 
 ### macOS/Linux:
+```bash
 source .venv/bin/activate
-
+```
 ---
 
 ## Run (OpenAI)
+```bash
 python src/main.py --llm openai --limit 10 --output out/index.html
 python src/main.py --refresh-geoip --llm openai --limit 10 --output out/index.html
+```
 
 ## Run (Ollama)
 # Make sure Ollama is running:
 #   ollama serve
 #   ollama pull llama3.2
+```bash
 python src/main.py --llm ollama --limit 10 --output out/index.html
 python src/main.py --refresh-geoip --llm ollama --limit 10 --output out/index.html
+```
